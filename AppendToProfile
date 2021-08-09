@@ -1,0 +1,7 @@
+PKGSRC_BIN=/opt/local/bin
+PKGSRC_SBIN=/opt/local/sbin
+PKGSRC_MAN=/opt/local/man
+PATH=${PKGSRC_SBIN}:${PKGSRC_BIN}:${PATH}
+MANPATH=${PKGSRC_MAN}:${MANPATH}
+export PATH
+export MANPATH
